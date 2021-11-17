@@ -1,5 +1,5 @@
 -name: "get ping response"
- hosts: all
+ hosts: LOCAL
  tasks:
  - action: ping
    register: hello

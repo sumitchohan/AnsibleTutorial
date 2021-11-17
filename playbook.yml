@@ -1,0 +1,6 @@
+-name: "get ping response"
+ hosts: all
+ tasks:
+ - action: ping
+   register: hello
+  
